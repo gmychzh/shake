@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="^Q?ZwN?dlWJ%6@}q}MPQ">stochastic</variable></variables><block type="device_gesture_event" id="~SRAR/H6F?Kd/N%Psk6F" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="M{(97Bp68walp;ewB#fk"><field name="VAR" id="^Q?ZwN?dlWJ%6@}q}MPQ">stochastic</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="E`-X!QULQsq{8rYmo6f9"><value name="min"><shadow type="math_number" id="X(3?d2bXyUR4w+G#K?g~"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="C@erXZo]*FwN7[MhAk!L"><field name="NUM">5</field></shadow></value></block></value><next><block type="controls_if" id="v+dfq8U3ISA%Z.OMES0k"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="k9VBTh#wo^}*;K{Rjm|0"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="805nzLNvf,1~KE76ri:+"><field name="VAR" id="^Q?ZwN?dlWJ%6@}q}MPQ">stochastic</field></block></value><value name="B"><shadow type="math_number" id="ise#etWx=WbP!7p{h.j9"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id=",Y6TT(H9H${1Sb)Naon?"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="controls_if" id="n4+8Lojkoa+.|!sZ|(pF"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="m=he]/X%}lR|o|ovtcqv"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="nn;w2Q/XwelxdYWE|Ex0"><field name="VAR" id="^Q?ZwN?dlWJ%6@}q}MPQ">stochastic</field></block></value><value name="B"><shadow type="math_number" id="V})2q=8PE;hFw:~An6]g"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="u:^JhJuHkHe!ru:CbErK"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="J8S9%=6pt+;J(X$[WAa."><field name="LEDS">`
+        . . . # # 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . . # .
+        `</field></block></statement></block></statement></block></next></block></statement></block></xml>
